@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Edu+SA+Beginner:wght@500&family=Lora:ital@1&family=Mulish:wght@500&family=Noto+Serif:wght@500;600&family=Nunito+Sans:opsz,wght@6..12,500&family=PT+Sans&family=Quicksand:wght@500&family=Tektur&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Nanum Myeongjo", serif;
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    #faf2d8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #f1e2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.paginate {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.paginate li {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(159, 159, 159);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
